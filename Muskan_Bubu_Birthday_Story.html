@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Bubu — Muskan ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#05040a;color:#fff4f8;font-family:Poppins,sans-serif;overflow-x:hidden}
+#sky{position:fixed;inset:0;z-index:-5;background:radial-gradient(circle at 50% 15%,#432040 0,#171022 35%,#07060b 78%);overflow:hidden}
+#sky:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1px),radial-gradient(#ffd9ea 1px,transparent 1px);background-size:73px 73px,137px 137px;opacity:.28;animation:drift 22s linear infinite}
+@keyframes drift{to{background-position:73px 110px,-80px 137px}}
+.moon{position:absolute;right:9%;top:7%;width:92px;height:92px;border-radius:50%;background:#fff5d7;box-shadow:0 0 70px #ffe7b855}
+.moon:after{content:"";position:absolute;width:92px;height:92px;border-radius:50%;left:28px;top:-12px;background:#1a1021}
+.orb{position:absolute;width:380px;height:380px;border-radius:50%;left:-170px;top:55%;background:#7c315d22;filter:blur(30px);animation:float 8s ease-in-out infinite}
+@keyframes float{50%{transform:translate(60px,-40px) scale(1.12)}}
+.petals span{position:fixed;top:-30px;font-size:16px;opacity:.35;animation:fall linear infinite;z-index:-1}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
+.container{max-width:900px;margin:auto;padding:25px 20px 80px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.hero-inner{max-width:760px}
+.eyebrow{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#e7aec8}
+h1,h2{font-family:'Cormorant Garamond',serif;font-weight:500}
+h1{font-size:clamp(65px,16vw,130px);line-height:.82;margin:22px 0 12px;background:linear-gradient(120deg,#fff,#ffd4e6,#fff);-webkit-background-clip:text;color:transparent}
+.hero h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;margin:15px 0;color:#ffe4ef}
+.hero p{font-size:16px;line-height:1.9;color:#ddcbd5}
+.btn{display:inline-block;margin-top:28px;padding:14px 26px;border:1px solid #c981a5;border-radius:50px;color:#fff;background:#ffffff0b;cursor:pointer;text-decoration:none;transition:.3s;box-shadow:0 0 25px #9b477033}
+.btn:hover{transform:translateY(-3px);background:#ffffff18}
+.section{padding:65px 0}.card{position:relative;padding:35px 30px;margin:24px 0;border:1px solid #ffffff14;border-radius:28px;background:linear-gradient(145deg,#ffffff0b,#ffffff03);backdrop-filter:blur(10px);box-shadow:0 20px 70px #0008}
+.chapter{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#dc8eb2}
+h2{font-size:46px;margin:9px 0 22px;color:#fff0f6}
+p{font-size:17px;line-height:2;color:#eadde3}
+.quote{font-family:'Cormorant Garamond',serif;font-size:27px!important;line-height:1.45!important;text-align:center;color:#ffe2ed!important;font-style:italic}
+.highlight{color:#ffd1e2;font-weight:600}
+.promise{font-family:'Cormorant Garamond',serif;font-size:32px;line-height:1.5;text-align:center;color:#ffe5ef}
+.reasons{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.reason{padding:22px;border-radius:20px;background:#ffffff08;text-align:center;border:1px solid #ffffff0c;font-family:'Cormorant Garamond',serif;font-size:24px}
+.reveal{overflow:hidden;max-height:0;opacity:0;transition:max-height 1.5s ease,opacity 1s ease}.reveal.open{max-height:5000px;opacity:1}
+.center{text-align:center}.heart{font-size:34px;display:inline-block;animation:pulse 1.7s infinite}@keyframes pulse{50%{transform:scale(1.2)}}
+footer{text-align:center;padding:45px 0 20px;color:#bfa9b4}footer strong{font-family:'Cormorant Garamond',serif;font-size:31px;color:#ffe4ee}
+.signature{font-family:'Cormorant Garamond',serif;font-size:29px;color:#ffe1ec}
+@media(max-width:600px){.moon{width:62px;height:62px}.moon:after{width:62px;height:62px;left:20px;top:-8px}.card{padding:25px 19px;border-radius:23px}h2{font-size:38px}p{font-size:15.5px}.quote{font-size:24px!important}.reasons{grid-template-columns:1fr}.reason{font-size:21px}}
+</style>
+</head>
+<body>
+<div id="sky"><div class="moon"></div><div class="orb"></div></div>
+<div class="petals" id="petals"></div>
+<main class="container">
+<section class="hero">
+<div class="hero-inner">
+<div class="eyebrow">15 September · A little universe made for you</div>
+<h1>Muskan</h1>
+<div class="heart">❤️</div>
+<h3>Happy Birthday, meri Bubu, meri Jaan.</h3>
+<p>Some people enter your life quietly…<br>and somehow become the person you can't imagine your life without.</p>
+<a class="btn" href="#story">Open our story ✨</a>
+</div>
+</section>
+
+<section id="story" class="section">
+<div class="card">
+<div class="chapter">Chapter I · The beginning</div>
+<h2>We weren't supposed to become “us”.</h2>
+<p>Kabhi socha bhi nahi tha ki ek <span class="highlight">online work-from-home job</span> ke through mili hui ek ladki meri life mein itni important ban jayegi.</p>
+<p>Pehle hum mile. Phir friends bane. Dheere-dheere baatein badhi, ek dusre ko samajhna shuru kiya… aur pata hi nahi chala ki kab tum meri life ka woh part ban gayi jiske bina ab main apni life imagine hi nahi karta. ❤️</p>
+<p class="quote">“Kuch kahaniyan plan nahi hoti… bas ek din shuru ho jaati hain.”</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter II · That smile</div>
+<h2>Then I saw you smile.</h2>
+<p>Mujhe abhi bhi yaad hai jab maine tumhe pehli baar smile karte hue dekha tha. Pata nahi us smile mein kya tha… but us waqt meri heartbeat sach mein badh gayi thi.</p>
+<p>Shayad wahi pehli baar tha jab mujhe laga tha — <span class="highlight">“ye ladki mere liye thodi si special hai.”</span> ✨</p>
+<p>Aur aaj bhi tumhe smile karte hue dekhna meri favourite cheezon mein se ek hai.</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter III · Why you matter</div>
+<h2>Your happiness matters to me.</h2>
+<p>Tum jab genuinely khush hoti ho na, mujhe woh bahut achha lagta hai. Main chahta hoon tum hamesha waise hi khush raho.</p>
+<p>Aur agar kabhi life mein koi aisa time aaye jab tumhari smile thodi kam ho jaaye, toh bas itna yaad rakhna — <span class="highlight">Dudu hamesha tumhare saath hai.</span> 🤍</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter IV · I cared</div>
+<h2>I never wanted anything in return.</h2>
+<p>Jab hum mile the, tum apne past ki wajah se already bahut kuch face kar rahi thi aur tum relationship mein bilkul nahi aana chahti thi.</p>
+<p>Us waqt maine tumhare liye jo bhi kiya, maine kabhi ye sochkar nahi kiya ki main tumhare liye kuch kar raha hoon ya tumhe kabhi iska return dena hai.</p>
+<p class="quote">“Maine bas wahi kiya jo mujhe tumhare liye sahi laga.<br>Because I cared about you.” ❤️</p>
+<p>Aur aaj jab tum mujhe apni family ke baad apni first priority samajhti ho… honestly, mere liye usse zyada special feeling shayad kuch nahi ho sakti. 🥺</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter V · The little things</div>
+<h2>I don't love only the easy parts.</h2>
+<div class="reasons">
+<div class="reason">😊 Tumhari hasi</div>
+<div class="reason">❤️ Tumhara care karna</div>
+<div class="reason">😂 Tumhari silly baatein</div>
+<div class="reason">😤 Tumhara gussa</div>
+<div class="reason">🌙 Tumhare moods</div>
+<div class="reason">🥹 Tumhara mujhe “Dudu” kehna</div>
+</div>
+<p class="center">Mujhe tumhari sirf achhi cheezein nahi pasand. Mujhe tumhari woh saari little things pasand hain jo tumhe <span class="highlight">tum</span> banati hain.</p>
+<p class="quote">“I don't want perfect. I want you.” 🫶</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter VI · The future</div>
+<h2>I don't see you only in my present.</h2>
+<p>Jaan, future ko lekar ek baat main tumhe aaj, tumhare birthday par clearly kehna chahta hoon.</p>
+<p class="promise">Main tumhe sirf aaj ke liye nahi dekhta.<br><span class="highlight">Main tumhare saath aage ki life imagine karta hoon. 💍</span></p>
+<p>Main genuinely chahta hoon ki hum isi tarah saath aage badhte rahein — ek dusre ko samajhte hue, support karte hue, apni mistakes se seekhte hue aur life ke har phase ko saath face karte hue.</p>
+<p class="quote">“Main tumhe apni wife maanta hoon.” 💍</p>
+<p>Ye mere liye sirf ek word nahi hai. Ye woh future hai jiske liye main kaam karna chahta hoon, khud ko better banana chahta hoon aur apni life ko stable banana chahta hoon. 🌟</p>
+<p>Mujhe pata hai wo din aaj nahi hai. Abhi mujhe bahut kuch achieve karna hai. 💪</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter VII · One day</div>
+<h2>The day I dream about.</h2>
+<p class="quote">“Bubu, ab ye sirf humara sapna nahi hai.<br>Ab ye humari reality hai.” 🥹❤️</p>
+<p>Us din main peeche mudkar humari poori journey yaad karunga — ek online job se shuru hui friendship, tumhari wo first smile, tumhara difficult phase, humari endless conversations, fights, laughter aur ye saari choti-choti memories.</p>
+<p>Aur shayad tab mujhe sabse zyada khushi is baat ki hogi ki maine jis ladki ko ek din bas screen par dekha tha, aaj wahi ladki mere saamne meri poori zindagi bankar khadi hai. 🥺❤️</p>
+<p class="promise">Bas tab tak mera haath pakad ke mere saath chalti rehna. 🤝</p>
+</div>
+
+<div class="card">
+<div class="chapter">Chapter VIII · My promise</div>
+<h2>Not just every birthday.</h2>
+<p>Hum perfect nahi hain. But I want us to keep choosing each other.</p>
+<p class="promise">Har birthday par nahi…<br><span class="highlight">Har din. ❤️</span></p>
+</div>
+
+<div class="card center">
+<div class="chapter">The letter I wanted you to feel</div>
+<h2>For my Bubu 💌</h2>
+<p>Ye page tumhare liye hai. Jab tum ready ho, neeche tap karna.</p>
+<button class="btn" onclick="openLetter()">Open your letter ❤️</button>
+<div id="letter" class="reveal">
+<p>Happy Birthday meri Bubu, meri Jaan. ❤️🎂</p>
+<p>Aaj ke din bas itna chahta hoon ki tum bahut khush raho, smile karo, apna din enjoy karo aur ye feel karo ki tum kitni loved ho. 🎉🥳</p>
+<p>Thank you meri life mein aane ke liye.<br>Thank you mujhe apna banane ke liye.<br>And thank you mujhe woh reason dene ke liye jiske liye main apne future ko aur better banana chahta hoon. ✨</p>
+<p class="quote">“I love you, Bubu. ❤️<br>Aaj bhi. Kal bhi.<br>Aur jis forever ka main tumse promise karta hoon… uske liye Dudu poori jaan laga dega.”</p>
+<p class="signature">Always yours,<br>Dudu ❤️</p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="heart">❤️</div><br>
+<strong>Happy Birthday, meri Jaan.</strong>
+<p>15 September · Made for Muskan, by Dudu.</p>
+</footer>
+</main>
+<script>
+function openLetter(){
+ const x=document.getElementById('letter'); x.classList.toggle('open');
+ if(x.classList.contains('open')){x.scrollIntoView({behavior:'smooth',block:'center'});burst();}
+}
+function burst(){
+ for(let i=0;i<24;i++){
+  let s=document.createElement('span');s.textContent=['❤️','✨','💗','🌸'][Math.floor(Math.random()*4)];
+  s.style.position='fixed';s.style.left='50%';s.style.top='55%';s.style.zIndex=20;
+  s.style.fontSize=(12+Math.random()*20)+'px';s.style.transition='1.7s ease-out';s.style.pointerEvents='none';
+  document.body.appendChild(s);
+  setTimeout(()=>{s.style.transform=`translate(${(Math.random()-.5)*500}px,${-150-Math.random()*350}px) rotate(${Math.random()*500}deg)`;s.style.opacity=0},30);
+  setTimeout(()=>s.remove(),1800);
+ }
+}
+for(let i=0;i<18;i++){
+ let s=document.createElement('span');s.textContent='✦';s.style.left=Math.random()*100+'vw';s.style.animationDuration=(8+Math.random()*13)+'s';s.style.animationDelay=(-Math.random()*15)+'s';document.getElementById('petals').appendChild(s);
+}
+</script>
+</body>
+</html>
